@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -5,7 +6,44 @@
 body{
     margin: 0px;
     padding: 0px;
+    font-family: 'Space Mono', monospace;
+}
+.main-container{
+    padding: 25px;
 }
 .total{
-    background-color: hsl(183, 100%, 15%)
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 10px 10px 10px;
+}
+.tip-amount, .total-amount{
+    display: flex;
+    margin: 0px 15px 0px 15px;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.tip-amount>.left-section>p:nth-of-type(1), .total-amount>.left-section>p:nth-of-type(1){
+    color: hsl(0, 0%, 100%)
+}
+.tip-amount>.left-section>p:nth-of-type(2),.total-amount>.left-section>p:nth-of-type(2){
+    font-size: 12px;
+    color: gray;
+}
+.tip-amount>.right-section>p, .total-amount>.right-section>p{
+    color: hsl(172, 67%, 45%);
+    font-size: 28px;
+}
+.reset{
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+    border: none;
+    font-weight: bolder;
+    border: none;
+    padding: 10px 120px 10px 120px;
+    margin: 10px;
+    border-radius: 3px;
+    font-size: 18px;
 }
