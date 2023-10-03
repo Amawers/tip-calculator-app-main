@@ -7,9 +7,80 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: 'Space Mono', monospace;
+    background-color: hsl(185, 41%, 84%);
+}
+.main-header{
+    color: hsl(183, 100%, 15%);
+    letter-spacing: 5px;
+    display: flex;
+    justify-content: center;
+    margin: 115px 0px 115px 0px;
 }
 .main-container{
     padding: 25px;
+    background-color: hsl(0, 0%, 100%);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.input-header{
+    color: hsl(186, 14%, 43%);
+    margin-bottom: 10px;
+}
+.input-container{
+    background-color: hsl(189, 41%, 97%);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    text-align: right;
+    border-radius: 5px;
+    padding: 10px 55px 10px 55px;
+}
+.input-container>p{
+    color: hsl(185, 41%, 84%);
+    font-size: 24px;
+}
+.input-container>input{
+    width: 280px;
+    border: none;
+    background-color: transparent;
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    color: hsl(183, 100%, 15%);
+
+}
+.input-container>input:focus{
+    outline: none;
+    color: hsl(183, 100%, 15%);
+}
+.tips{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-flow: wrap;
+    justify-content: center ;
+}
+.tips>.tips-button{
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    width: 140px;
+    margin: 10px;
+    padding: 5px 20px 5px 20px
+}
+.tips>.custom-button{
+    background-color: hsl(189, 41%, 97%);
+    color: hsl(183, 100%, 15%);;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    width: 140px;
+    margin: 10px;
+    padding: 5px 20px 5px 20px
 }
 .total{
     background-color: hsl(183, 100%, 15%);
